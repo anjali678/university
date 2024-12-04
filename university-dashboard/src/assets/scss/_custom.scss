@@ -1,0 +1,11 @@
+@import 'variables';
+
+// Change sidebar background color
+.sidebar {
+  background-color: $primary !important;
+}
+
+// Adjust navbar height
+.navbar {
+  height: 4rem;
+}

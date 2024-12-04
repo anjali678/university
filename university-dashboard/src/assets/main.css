@@ -1,0 +1,57 @@
+/* Ensure full height for html and body */
+html,
+body {
+  overflow-x: hidden !important;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+
+/* #app should fill the entire viewport height */
+#app {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure #app takes the full height */
+}
+
+/* #app should fill the entire viewport height */
+#login {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Ensure #app takes the full height */
+}
+
+/* Ensure dropdowns are hidden by default and show when .show class is added */
+.dropdown-menu {
+  display: none; /* Hidden by default */
+}
+
+.dropdown-menu.show {
+  display: block; /* Shown when 'show' class is added */
+}
+
+.modal{
+  display: block !important;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#form-card {
+  max-height: 400px; /* or your desired max height */
+  overflow-y: auto; /* Enables scrolling when content overflows */
+}
+
+#form-card::-webkit-scrollbar {
+  width: 8px; /* Custom width for the scrollbar */
+  padding-right: 10px;
+}
+
+#form-card::-webkit-scrollbar-thumb {
+  background-color: #888; /* Scrollbar thumb color */
+  border-radius: 10px;
+}
+
+#form-card::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+}
+
